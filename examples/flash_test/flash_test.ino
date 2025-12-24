@@ -1,7 +1,7 @@
 //#include <Arduino.h>
 #include "flash_eep.h"
 
-extern FLASH_EEP eep; // global instance defined in flash_test.cpp
+FLASH_EEP eep; // global instance defined in flash_test.cpp
 
 void print_hex(const uint8_t *buf, size_t len)
 {

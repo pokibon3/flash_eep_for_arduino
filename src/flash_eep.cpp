@@ -9,7 +9,7 @@
 #include <cstring> // memcpy
 
 // Global instance used by tests and other modules
-FLASH_EEP eep;
+//FLASH_EEP eep;
 
 /*
  * 前提：
